@@ -6,7 +6,7 @@ draft: false
 ShowToc: true
 TocOpen: true
 cover:
-  image: "img/cka.png"
+  image: "/img/cka.png"
   alt: "cka_cover"
 ---
 
