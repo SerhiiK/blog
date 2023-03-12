@@ -65,7 +65,7 @@ This simulator is harder than the real exam and after passing you will have a re
 
 ### Result
 
-![cka](img/cka_cert.png)
+![cka](/img/cka_cert.png)
 
 As result after 2 hours of examination and 24 hours of expectation, I received the desired message of congratulations.
 I hope this article with bits of advice will help you to pass the exam and become a Certified Kubernetes Administrator.   
