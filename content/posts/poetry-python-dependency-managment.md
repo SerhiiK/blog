@@ -40,7 +40,9 @@ Let's start example and I'll show how to use it.
 First of all we need to install Poetry. You can find [documentations](https://python-poetry.org/docs/#installation)
 how to do it. If you are Linux user (WSL) or MacOS you may use this command. 
  
-``` curl -sSL https://install.python-poetry.org | python3 -
+```
+curl -sSL https://install.python-poetry.org | python3 -
+
 ```
 
 You need also add Poetry to your PATH.
