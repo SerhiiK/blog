@@ -7,7 +7,7 @@ tags: ["scripting", "golang", "provisioning"]
 ShowToc: true
 TocOpen: true
 cover:
-  image: "/img/golang_cloudflare.png"
+  image: "img/golang_cloudflare.png"
   alt: "cover"
 ---
 

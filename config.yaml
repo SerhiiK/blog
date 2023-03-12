@@ -45,15 +45,15 @@ params:
   assets:
     # disableHLJS: true # to disable highlight.js
     # disableFingerprinting: true
-    favicon: "/favicon/favicon.ico"
-    favicon16x16: "/favicon/favicon16x16"
-    favicon32x32: "/favicon/favicon32x32"
-    apple_touch_icon: "/favicon/apple-touch-icon"
-    safari_pinned_tab: "/favicon/favicon.ico"
+    favicon: "favicon/favicon.ico"
+    favicon16x16: "favicon/favicon16x16"
+    favicon32x32: "favicon/favicon32x32"
+    apple_touch_icon: "favicon/apple-touch-icon"
+    safari_pinned_tab: "favicon/favicon.ico"
 
   label:
     text: "Krupskyi"
-    icon: /favicon/apple-touch-icon.png
+    icon: favicon/apple-touch-icon.png
     iconHeight: 35
 
   # profile-mode
@@ -61,7 +61,7 @@ params:
     enabled: true # needs to be explicitly set
     title: Krupskyi
     subtitle: "Platfom Engineer"
-    imageUrl: "/favicon/apple-touch-icon.png"
+    imageUrl: "favicon/apple-touch-icon.png"
     imageWidth: 120
     imageHeight: 120
     imageTitle: avatar

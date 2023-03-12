@@ -6,7 +6,7 @@ tags: ["python"]
 ShowToc: true
 TocOpen: true
 cover:
-  image: "/img/poetry.png"
+  image: "img/poetry.png"
   alt: "poetry_cover"
 ---
 
