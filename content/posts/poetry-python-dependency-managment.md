@@ -10,8 +10,6 @@ cover:
   alt: "poetry_cover"
 ---
 
-## Problem 
-
 Python - one of the most popular programming language. It simple and easy to learn. 
 Thats why Python has good ecosystem: you can find package for almost everything.
 And this created a problem - how to manage this all packages on project ?
