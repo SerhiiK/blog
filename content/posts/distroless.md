@@ -15,22 +15,22 @@ cover:
 
 Containers - technology that changed the way how develop, deploy, and manage applications.
 Traditional container images often include a complete OS with a lot of useless tools and libraries
-exposes vulnerabilities and increasing size of image. 
-"Distroless" images is an approach how to build images and solve this this disadvantages
+exposes vulnerabilities and increasing the size of an image. 
+"Distroless" images are an approach to building images and solving these disadvantages.
 
 ### Distroless
-"Distroless" images contain only your application and runtime dependencies, thats all.  
-1.Images cut down unnecessary parts, They reduces the attack surface and make it harder 
+"Distroless" images contain only your application and runtime dependencies, that's all.  
+1.Images cut down unnecessary parts, They reduce the attack surface and make it harder 
 to find weak spots in your application, 
 making you container more secure. You don't have any libs or tools like cURL that 
 may has some vulnerabilities.   
 2.  Because of image doesn't have nonimportant libs, tool they are smaller, which means they 
-taky up less space, save storage in registries and can start up faster. 
+taky up less space, save storage in registries, and can start up faster. 
 
-### Practise
+### Practice
 Let's take a look on example:
 
-As app write webserver on Go:
+As app writes webserver on Go:
 
 {{< details "Code" >}}
   ```go
@@ -57,7 +57,7 @@ func main() {
 {{< /details >}}
 
 Create Dockerfile for building image:
-Golang image based on debian 12.1 Bookworm
+Golang image based on Debian 12.1 Bookworm
 
 {{< details "Dockerfile" >}}
   ```
@@ -75,7 +75,7 @@ CMD ["./main"]
   ```
 {{< /details >}}
 
-In result we have image with size 914MB. Information from
+As result, we have image with size 914MB. Information from
 dockerhub says it has 302 packages.
 Let's try to scan image on vulnerabilities. For it I'm using trivy:  
 ```Total: 333 (UNKNOWN: 1, LOW: 241, MEDIUM: 56, HIGH: 33, CRITICAL: 2)```
@@ -109,8 +109,8 @@ Now image has size only 14MB but what about vulnerabilities ?
 Trivy's result:  
 ```Total: 4 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 4, CRITICAL: 0)```
 
-It's good result, but all vulnerabilities from ssl packages and has high level. 
-Finally we can try to use distroless image. 
+It's good result, but all vulnerabilities are from ssl packages and have high level. 
+Finally, we can try to use a distroless image. 
 
 {{< details "Dockerfile" >}}
   ```
@@ -134,7 +134,7 @@ CMD ["./main"]
   ```
 {{< /details >}}
 
-This image has only 8,6MB. Trivy has good result:  
+This image has only 8,6MB. Trivy has good results:  
 ```Total: 0 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 0, CRITICAL: 0)```
 
 ### Summary 
@@ -151,10 +151,10 @@ and vulnerabilities count:
 
 Distroless images is not for you if: 
 
-1. Compabillity - ensure that your application have all dependencies to work
+1. Compatibility - ensure that your application has all dependencies to work
   inside. 
-2. Debugging - distroless images doesn't have even shell. Of course you may 
-   use debug version of image for troubleshooting but it's not so comfortable.
-3. Customization - is offered list of images for popular languages like python,
-   java etc. If you need to support some specific programming language distroless
+2. Debugging - distroless images don't have even a shell. Of course, you may 
+   use the debug version of an image for troubleshooting but it's not so comfortable.
+3. Customization - offers a list of images for popular languages like Python,
+   java, etc. If you need to support some specific programming language distroless
    is not for you. 
