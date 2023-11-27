@@ -27,6 +27,8 @@ may has some vulnerabilities.
 2.  Because of image doesn't have nonimportant libs, tool they are smaller, which means they 
 taky up less space, save storage in registries, and can start up faster. 
 
+More details about distroless images you may find in [repo](https://github.com/GoogleContainerTools/distroless).
+
 ### Practice
 Let's take a look on example:
 
@@ -110,7 +112,7 @@ Trivy's result:
 ```Total: 4 (UNKNOWN: 0, LOW: 0, MEDIUM: 0, HIGH: 4, CRITICAL: 0)```
 
 It's good result, but all vulnerabilities are from ssl packages and have high level. 
-Finally, we can try to use a distroless image. 
+Finally, we can try to use a distroless image.
 
 {{< details "Dockerfile" >}}
   ```
