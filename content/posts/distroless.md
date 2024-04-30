@@ -2,7 +2,7 @@
 title: "Distroless images: why, how and when"
 date: 2023-11-14T21:47:46+02:00
 draft: false
-description: "Article descibes technology as distroless container. 
+description: "Article describes technology as distroless container.
     Why it's useful to use, how and when it make sense"
 tags: ["container", "docker", "distroless", "security"]
 ShowToc: true
