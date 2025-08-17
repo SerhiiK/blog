@@ -20,6 +20,9 @@ readingTime = false
     email = "serhii@krupskyi.com"
     avatarFirst = true
 
+  [params.styles]
+    color = "red"
+
 [menu]
   [[menu.header]]
     name = "blog"
