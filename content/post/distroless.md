@@ -141,11 +141,11 @@ necessary tools and libs for your application. Thanks to this, they have
 reduced attack surface. They don't have issue that exist in Alpine images.
 For better understanding here is comparing of images size:
 
-![image_size](/img/distroless/size.png)
+![image_size](/images/distroless/size.png)
 
 and vulnerabilities count:
 
-![vuln_img](/img/distroless/vuln.png)
+![vuln_img](/images/distroless/vuln.png)
 
 Distroless images is not for you if: 
 
