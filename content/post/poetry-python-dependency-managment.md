@@ -11,7 +11,7 @@ cover:
 ---
 
 Python - one of the most popular programming language. It simple and easy to learn. 
-Thats why Python has good ecosystem: you can find package for almost everything.
+Thats why Python has good ecosystem: you can find package for almost everything.<!--more-->
 And this created a problem - how to manage this all packages on project ?
 
 By default, packages installed in global Python env, that accessible to all projects.
@@ -92,4 +92,3 @@ This command will start Flask server with our app.
 
 This is first commands what you need to know how to work with Poetry. This tool 
 has good documentations and you will find what you need inside. 
-

@@ -1,8 +1,7 @@
 ---
 title: "Projects"
-draft: false
-showReadingTime: false
-showShareButtons: false
+showPublishedDate: false
+showMetadata: false
 ---
 
 

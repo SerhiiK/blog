@@ -6,17 +6,13 @@ description: "Golang is more and more popular language and some company uses it 
 tags: ["scripting", "golang", "provisioning"]
 ShowToc: true
 TocOpen: true
-cover:
-  image: "/img/golang_cloudflare.png"
-  alt: "cover"
 ---
-
-## Intro
 
 Nowadays Golang is so popular language. In Feb 2022 it has 11 place on the TIOBE index.
 Also, a lot of tools and apps are written or rewritten in this lang. Some company like 
-[Cloudflare](https://blog.cloudflare.com/using-go-as-a-scripting-language-in-linux/) 
-even use it for scripting. Inspired by this article I would like to check does Go is
+Cloudflare even use it for scripting.
+<!--more-->
+Inspired by this article I would like to check does Go is
 comfortable for scripting and does it good alternative to Python? 
 
 ## Start

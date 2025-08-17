@@ -7,13 +7,9 @@ description: "Article describes technology as distroless container.
 tags: ["container", "docker", "distroless", "security"]
 ShowToc: true
 TocOpen: true
-cover:
-  image: "/img/distroless/distroless.png"
-  alt: "distroless_cover"
-
 ---
 
-Containers - technology that changed the way how develop, deploy, and manage applications.
+Containers - technology that changed the way how develop, deploy, and manage applications.<!--more-->
 Traditional container images often include a complete OS with a lot of useless tools and libraries
 exposes vulnerabilities and increasing the size of an image. 
 "Distroless" images are an approach to building images and solving these disadvantages.
@@ -145,11 +141,11 @@ necessary tools and libs for your application. Thanks to this, they have
 reduced attack surface. They don't have issue that exist in Alpine images.
 For better understanding here is comparing of images size:
 
-![image_size](/img/distroless/size.png)
+![image_size](/images/distroless/size.png)
 
 and vulnerabilities count:
 
-![vuln_img](/img/distroless/vuln.png)
+![vuln_img](/images/distroless/vuln.png)
 
 Distroless images is not for you if: 
 

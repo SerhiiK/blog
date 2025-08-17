@@ -1,8 +1,7 @@
----
-title: "About"
-draft: false
-showReadingTime: false
-showShareButtons: false
----
++++
+title = "About"
+description = "Hugo, the world's fastest framework for building websites"
+date = ""
++++
 
-Will be filled soon....
+Hi. I'll fill this page later.

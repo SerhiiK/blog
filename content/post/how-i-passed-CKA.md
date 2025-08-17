@@ -5,10 +5,12 @@ tags: ["K8s","Certification"]
 draft: false
 ShowToc: true
 TocOpen: true
-cover:
-  image: "/img/cka.png"
-  alt: "cka_cover"
 ---
+
+
+Some time ago I passed the Certified Kubernetes Administrator certification exam
+and decide to write an article how to prepare for it.
+<!--more-->
 
 Some time ago I passed the Certified Kubernetes Administrator certification exam
 and decide to write an article how to prepare for it.
@@ -65,7 +67,7 @@ This simulator is harder than the real exam and after passing you will have a re
 
 ### Result
 
-![cka](/img/cka_cert.png)
+![cka](/images/cka_cert.png)
 
 As result after 2 hours of examination and 24 hours of expectation, I received the desired message of congratulations.
 I hope this article with bits of advice will help you to pass the exam and become a Certified Kubernetes Administrator.   

@@ -5,16 +5,12 @@ description: "How to store helm charts in Gitlab"
 tags: ["helm","charts", "gitlab", "registry"]
 ShowToc: true
 TocOpen: true
-cover:
-  image: "/img/gpr/cover.png"
-  alt: "gitlab_package_registry_cover"
 ---
 
 
-GitLab Package Registry (GPR) is a powerful feature of GitLab that allows developers to store and share packages within their GitLab projects.
+GitLab Package Registry (GPR) is a powerful feature of GitLab that allows developers to store and share packages within their GitLab projects.<!--more-->
 With this feature, developers can easily manage and distribute packages, such as Docker images, Maven artifacts, RubyGems, and npm packages,
 without relying on external registries.
-
 In this article, we will explore how to use GPR for storing Helm charts and which benefits you will have.
 
 ## Benefits
@@ -34,7 +30,7 @@ can see all charts, versions of charts, and other details of charts.
 ## Using GPR for Helm charts
 By default, Gitlab Package Registry is enabled. You should see it in the left menu. 
 
-![menu](/img/gpr/menu.png)
+![menu](/images/gpr/menu.png)
 
 If you don't have this menu you will need to enable GitLab Package Registry for your GitLab project. 
 You can do this by navigating to your project's Settings > General > Visibility, project features, 
@@ -71,7 +67,7 @@ If all passed ok you will have a message: `{"message":"201 Created"}`
 
 Now open *Package and registries > Package Registry*. You will see your helm chart.
 
-![chart](/img/gpr/chart.png)
+![chart](/images/gpr/chart.png)
 
 ### Add helm repository to a local machine 
 For adding repository use this command:

@@ -6,12 +6,9 @@ description: "How to do gifs with VHS"
 tags: ["gif", "terminal", "bash", "zsh"]
 ShowToc: true
 TocOpen: true
-cover:
-  image: "/img/vhs/vhs_cover.png"
-  alt: "vhs_cover"
 ---
-Every engineer sometimes need to write documentation. Very often this documentation is needed for teammate, 
-who doesn't have a lot of knowledge of this technology or even doesn't need it if this documentation for support team.
+Every engineer sometimes need to write documentation. Very often this documentation is needed for teammate,
+who doesn't have a lot of knowledge of this technology or even doesn't need it if this documentation for support team.<!--more-->
 That's why documentation should be as understandable as possible.
 One of the ways to do it - using of records of terminal with details how to do one of another action.
 Exist several tools ho to do it. One of the most popular is asciinema. 
@@ -27,19 +24,19 @@ Also vhs can create record in output as `gif`, `mp4`, `webm`.
 So lets call command in terminal and open tape file.
 
 Execute  `vhs new demo ` and open generated file in your favorite editor  
-![demo](/img/vhs/demo.gif)
+![demo](/images/vhs/demo.gif)
 
 `demo.tape` is a configuration file that consist of a series of commands - instructions for VHS to perform them in virtual terminal.
 Here we need to change output path because examples folder doesn't exist and change echo command.  
-![gif](/img/vhs/gif.gif)
+![gif](/images/vhs/gif.gif)
 
 Now we have tape ready to record. Execute command `vhs < demo.tape` and waiting until tool generate gif.   
 
-![generate](/img/vhs/generate.gif)
+![generate](/images/vhs/generate.gif)
 VHS will record steps an use ffmpeg for creating `demo.gif` file.
 
 ### Result
 Here's result:  
-![result](/img/vhs/demo_1.gif)
+![result](/images/vhs/demo_1.gif)
 
 
