@@ -1,0 +1,63 @@
+baseURL = 'https://example.org/'
+languageCode = 'en-us'
+title = 'My New Hugo Site'
+theme = 'nightfall'
+
+[markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
+
+[params]
+user = "serhii"
+hostname = "krupskyi.io"
+readingTime = false
+
+  [params.author]
+    name = "Serhii Krupskyi"
+    #avatar = "/avatar.png"
+    avatarSize = "size-m"
+    email = "serhii@krupskyi.com"
+    avatarFirst = true
+
+[menu]
+  [[menu.header]]
+    name = "blog"
+    weight = 0
+    url = "post"
+  [[menu.header]]
+    name = "projects"
+    weight = 1
+    url = "projects"
+  [[menu.header]]
+    name = "about"
+    weight = 1
+    url = "about"
+  [[menu.header]]
+    name = "CV"
+    weight = 0
+    url = "https://cv.krupskyi.com"
+
+[[params.social]]
+key = 0
+name = "github"
+url = "https://github.com/SerhiiK"
+target = "_blank"
+aria = "GitHub Profile"
+
+[[params.social]]
+key = 1
+name = "twitter"
+url = "https://x.com/serhii_krupskyi"
+target = "_blank"
+aria = "Twitter Profile"
+
+[[params.social]]
+key = 2
+name = "linkedin"
+url = "https://www.linkedin.com/in/serhii-krupskyi/"
+target = "_blank"
+aria = "LinkedIn Profile"
+
+
+
